@@ -11,15 +11,14 @@
   <header>
     <img class="logo" src="https://images.pexels.com/photos/6913841/pexels-photo-6913841.jpeg">
   </header>
-  <section>
+  <section class="userInterface">
     <div class="buttonContainer">
-      <button>All</button>
-      <button>Button 1</button>
-      <button>Button 2</button>
-      <button>Button 3</button>
-      <button>Button 4</button>
+      <button class="animalFilter" animal="all">All</button>
+      <button class="animalFilter" animal="tiger">Tiger</button>
+      <button class="animalFilter" animal="Panda">Panda</button>
+      <button class="animalFilter" animal="Elephant">Elephant</button>
+      <button class="animalFilter" animal="owl">Owl</button>
     </div>
-
     <div class="inputContainer">
       <input/>
     </div>
@@ -27,53 +26,53 @@
   <main>
       <h1>Animal Photography</h1>
       <section class="imageContainer">
+        <div>
+          <img class="imageFilter tiger" src="https://images.pexels.com/photos/2642250/pexels-photo-2642250.jpeg">
+        </div>
           <div>
-            <img class="Panda" src="https://images.pexels.com/photos/4060848/pexels-photo-4060848.jpeg" />
+            <img class="imageFilter Panda" src="https://images.pexels.com/photos/4060848/pexels-photo-4060848.jpeg" />
           </div>
           <div>
-            <img class="Elephant" src="https://images.pexels.com/photos/4577542/pexels-photo-4577542.jpeg" />
+            <img class="imageFilter Elephant" src="https://images.pexels.com/photos/4577793/pexels-photo-4577793.jpeg" />
           </div>
           <div>
-            <img class="owl" src="https://images.pexels.com/photos/3839925/pexels-photo-3839925.jpeg" />
+            <img class="imageFilter owl" src="https://images.pexels.com/photos/3839925/pexels-photo-3839925.jpeg" />
           </div>
           <div>
-            <img class="tiger" src="https://images.pexels.com/photos/2642250/pexels-photo-2642250.jpeg">
+            <img class="imageFilter Elephant" src="https://images.pexels.com/photos/4577542/pexels-photo-4577542.jpeg" />
           </div>
           <div>
-            <img class="Panda" src="https://images.pexels.com/photos/7571167/pexels-photo-7571167.jpeg" />
+            <img class="imageFilter  Panda" src="https://images.pexels.com/photos/7571167/pexels-photo-7571167.jpeg" />
           </div>
           <div>
-            <img class="tiger" src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg" />
+            <img class="imageFilter  tiger" src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg" />
           </div>
           <div>
-            <img class="Elephant" src="https://images.pexels.com/photos/4577793/pexels-photo-4577793.jpeg" />
+            <img class="imageFilter  owl" src="https://images.pexels.com/photos/3756303/pexels-photo-3756303.jpeg" />
           </div>
           <div>
-            <img class="owl" src="https://images.pexels.com/photos/3756303/pexels-photo-3756303.jpeg" />
+            <img class="imageFilter  tiger" src="https://images.pexels.com/photos/2541239/pexels-photo-2541239.jpeg" />
           </div>
           <div>
-            <img class="tiger" src="https://images.pexels.com/photos/2541239/pexels-photo-2541239.jpeg" />
+            <img class="imageFilter  Elephant" src="https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg" />
           </div>
           <div>
-            <img class="Elephant" src="https://images.pexels.com/photos/5125390/pexels-photo-5125390.jpeg" />
+            <img class="imageFilter  Panda" src="https://images.pexels.com/photos/7619839/pexels-photo-7619839.jpeg" />
           </div>
           <div>
-            <img class="Panda" src="https://images.pexels.com/photos/7619839/pexels-photo-7619839.jpeg" />
+            <img class="imageFilter  tiger" src="https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg" />
           </div>
           <div>
-            <img class="bunny" src="https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg" />
+            <img class="imageFilter  Panda" src="https://images.pexels.com/photos/7619829/pexels-photo-7619829.jpeg"/>
           </div>
           <div>
-            <img class="tiger" src="https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg" />
+            <img class="imageFilter  Elephant" src="https://images.pexels.com/photos/4577791/pexels-photo-4577791.jpeg" />
           </div>
           <div>
-            <img class="owl" src="https://images.pexels.com/photos/5587951/pexels-photo-5587951.jpeg" />
+            <img class="imageFilter  bunny" src="https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg" />
           </div>
           <div>
-            <img class="Elephant" src="https://images.pexels.com/photos/4577791/pexels-photo-4577791.jpeg" />
-          </div>
-          <div>
-            <img class="Panda" src="https://images.pexels.com/photos/7619829/pexels-photo-7619829.jpeg"/>
+            <img class="imageFilter  owl" src="https://images.pexels.com/photos/5587951/pexels-photo-5587951.jpeg" />
           </div>
       </section>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed rutrum velit, placerat vulputate metus. Suspendisse erat neque, mollis vel odio sed, faucibus posuere enim. Phasellus lacinia ornare lacus, id sollicitudin nulla. Maecenas condimentum orci ac sagittis ornare. Fusce tempus risus ut erat posuere facilisis. Aliquam ullamcorper mauris quis ultricies convallis. In hac habitasse platea dictumst. Nulla aliquam non ex non iaculis. Nunc mattis dolor velit, nec congue sapien euismod et. Suspendisse purus risus, egestas id arcu vitae, placerat vestibulum justo. Duis at lobortis ipsum, vel consectetur risus. Proin sit amet velit eu erat bibendum pulvinar in ut magna. Etiam id neque sit amet enim ultrices mollis. Sed tempor, augue et ultricies ullamcorper, lacus quam auctor orci, sed mollis turpis leo et ligula. Morbi nisi metus, vehicula ac dapibus vitae, fringilla ullamcorper mauris.</p>
@@ -81,5 +80,6 @@
     <aside>
       <p>Praesent blandit lectus mattis, gravida eros vel, iaculis ex. Ut vel aliquam felis, ac congue tortor. Integer pretium risus ac purus suscipit suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sit amet nisl a arcu hendrerit faucibus at sed enim. Nullam massa ex, rutrum at ornare ac, egestas non massa. Sed bibendum purus arcu, a tempus leo cursus et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus blandit faucibus nisl, et euismod eros ultrices ac. Morbi pellentesque eros metus, aliquet scelerisque elit fringilla sit amet. Aliquam ultrices, nisi a semper efficitur, nunc velit varius felis, imperdiet imperdiet lectus lectus ac ante. Nunc auctor suscipit neque. Ut vitae purus et ligula convallis congue ac sed leo. Praesent sit amet libero libero. Sed massa ex, dictum ac risus venenatis, suscipit bibendum velit. Vestibulum condimentum porttitor magna mattis blandit.</p>
   </section>
+  <script src="scripts/filter.js"></script>
 </body>
 </html>
